@@ -1,0 +1,212 @@
+/* Reset */
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1rem/1.618rem "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.first {
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+}
+
+.link-top {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #007BC7;
+    color: white;
+}
+
+p.header-title {
+    font-size: large; 
+    float: left;
+    padding: 26px 20px;
+}
+
+ul {
+    float: right;
+    padding: 28px 0px;
+}
+
+li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.header-list {
+    color: white;
+    text-decoration: none;
+}
+
+main>header {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.kabegamikan.com/img/na11/143395.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.meigenn {
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    width: 100%;
+}
+
+h1.title {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    font-size: medium;
+}
+
+.content1 {
+    width: 100%;
+    height: 560px;
+}
+
+.content-head {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+h2.heading {
+   padding-top: 50px;
+}
+
+.heading::first-letter {
+    color: #007BC7;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.line {
+    width: 50px;
+    border-bottom: solid 2px #007BC7;
+    margin: 0 auto;
+}
+
+.img {
+    width: 50%;
+    float: left;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myphoto {
+    padding-top: 20px;
+}
+
+table {
+    height: 60%;
+    padding-left: 20px;
+}
+
+.content2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/08/01/00/sunset-sky-1082265__480.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.items  {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.item {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(255,255,255, 0.6);
+    border: 5px solid white;
+    text-align: center;
+}
+
+h3 {
+    color: #007BC7;
+    margin-top: 10px;
+}
+
+.content3 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.mokuhyou {
+    margin: 0 auto;
+    color: #007BC7;
+    text-align: center;
+    padding: 10px;
+}
+
+.syourai {
+    white-space: pre;
+    text-align: center;
+    font-size: 16px;
+}
+
+.kokuti {
+    font-size: xx-large;
+    text-align: center;
+    color: #007BC7;
+    position: absolute;
+    top: 680px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #007BC7;
+}
+
+.empty {
+    height: 60px;
+}
+.btn-message {
+    text-decoration: none;
+}
+
+.btn {
+    width: 100px;
+    padding:10px 0px;
+    border: solid 5px white;
+    text-align: center;
+    color: white;
+    margin: 0px auto;
+}
+
+.footer-message {
+    text-align: center;
+    color: white;
+}
